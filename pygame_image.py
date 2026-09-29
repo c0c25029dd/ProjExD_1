@@ -32,7 +32,7 @@ def main():
             x-=1
         if key_lst[pg.K_RIGHT]:
             x+=2
-
+ 
         kk_rct.move_ip(x, y)    
 
         x = tmr%3200  # 練習9：ループさせる
